@@ -5,7 +5,7 @@ echo "Please enter a name for a new workspace:"
 read name
 mkdir -p $path/$name/src
 cd $path/$name
-source /opt/ros/<distro>/setup.bash
+source /opt/ros/kinetic/setup.bash
 source devel/setup.bash
 catkin_make
 echo "I have make a workspace named $name for you!"
